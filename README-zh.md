@@ -1,4 +1,4 @@
-[English](README.md) · **中文**
+[English](https://github.com/tercel/tercel/blob/main/README.md) · **中文**
 
 # Tercel
 
