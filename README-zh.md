@@ -63,7 +63,7 @@
 
 **到代码已经在的地方去找它** —— 这些集成会扫描既有代码库，把已经存在的东西暴露出来，而不是要求任何人重写。
 
-[fastapi-apcore](https://github.com/aiperceivable/fastapi-apcore) · [django-apcore](https://github.com/aiperceivable/django-apcore) · [flask-apcore](https://github.com/aiperceivable/flask-apcore) · [nestjs-apcore](https://github.com/aiperceivable/nestjs-apcore) · [axum-apcore](https://github.com/aiperceivable/axum-apcore) · [tiptap-apcore](https://github.com/aiperceivable/tiptap-apcore) · [pydantic-ai-apcore](https://github.com/aiperceivable/pydantic-ai-apcore)
+[fastapi-apcore](https://github.com/aiperceivable/fastapi-apcore) · [django-apcore](https://github.com/aiperceivable/django-apcore) · [flask-apcore](https://github.com/aiperceivable/flask-apcore) · [nestjs-apcore](https://github.com/aiperceivable/nestjs-apcore) · [axum-apcore](https://github.com/aiperceivable/axum-apcore) · [tiptap-apcore](https://github.com/aiperceivable/tiptap-apcore)
 
 至于那些根本没有框架可言的代码——[**apexe**](https://github.com/aiperceivable/apexe) 通过扫描 help 输出，把一个现成的 CLI 二进制文件包装成受治理的模块。于是一个存在了四十年的工具，抵达 agent 时携带的 ACL 与审批语义，和手写模块完全相同。
 
