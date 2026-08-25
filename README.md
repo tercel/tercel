@@ -63,7 +63,9 @@ Everything below lives under [**@aiperceivable**](https://github.com/aiperceivab
 
 **Meeting code where it already is** — integrations that scan an existing codebase and expose what is already there, rather than asking anyone to rewrite it.
 
-[fastapi-apcore](https://github.com/aiperceivable/fastapi-apcore) · [django-apcore](https://github.com/aiperceivable/django-apcore) · [flask-apcore](https://github.com/aiperceivable/flask-apcore) · [nestjs-apcore](https://github.com/aiperceivable/nestjs-apcore) · [axum-apcore](https://github.com/aiperceivable/axum-apcore) · [tiptap-apcore](https://github.com/aiperceivable/tiptap-apcore)
+[fastapi-apcore](https://github.com/aiperceivable/fastapi-apcore) · [django-apcore](https://github.com/aiperceivable/django-apcore) · [flask-apcore](https://github.com/aiperceivable/flask-apcore) · [nestjs-apcore](https://github.com/aiperceivable/nestjs-apcore) · [hono-apcore](https://github.com/aiperceivable/hono-apcore) · [axum-apcore](https://github.com/aiperceivable/axum-apcore) · [tiptap-apcore](https://github.com/aiperceivable/tiptap-apcore)
+
+And in the other direction — [**pydantic-ai-apcore**](https://github.com/aiperceivable/pydantic-ai-apcore) hands governed modules to a [pydantic-ai](https://ai.pydantic.dev/) agent as a toolset, and registers the tools that agent already has as apcore modules, so they arrive over MCP, CLI, or A2A carrying the same ACL, approval, and audit semantics as any other.
 
 And for the code that has no framework at all — [**apexe**](https://github.com/aiperceivable/apexe) wraps an existing CLI binary into a governed module by scanning its help output, so a forty-year-old tool arrives at an agent with the same ACL and approval semantics as a hand-written one.
 
